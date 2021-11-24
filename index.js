@@ -24,7 +24,7 @@ function App(){
 );
 }
 
-function Preview({ markdown} ){
+function Preview({markdown}){
     return (
         <div 
         dangerouslySetInnerHTML={{
