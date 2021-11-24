@@ -27,7 +27,7 @@ function App(){
 function Preview({ markdown} ){
     return (
         <div 
-        dangerouslySetInnerHtml={{
+        dangerouslySetInnerHTML={{
             __html: marked(markdown, { renderer: renderer }),
         }}
         id="preview" 
